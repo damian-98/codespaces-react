@@ -1,4 +1,5 @@
 import './App.css';
+import ReactPlayer from 'react-player/lazy';
 
 function App() {
   return (
@@ -6,11 +7,13 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          GitHub Codespaces <span className="heart">♥️</span> React  
+          <ReactPlayer url={"https://youtube.com"}/>
         </p>
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
+      
         <p>
           <a
             className="App-link"
